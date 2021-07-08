@@ -1,6 +1,6 @@
 # web-programming-study
 web-programming-study 공부용 레포지토리 입니다.
-<br>kimsfamily.kr을 참조하였습니다.
+<br>https://kimsfamily.kr/ 을 참조하였습니다.
 <br>
 <br>데모 사이트 만드는 곳
 <br>https://app.netlify.com/drop
