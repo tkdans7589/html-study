@@ -2,9 +2,13 @@
 web-programming-study 공부용 레포지토리 입니다.
 <br>kimsfamily.kr을 참조하였습니다.
 <br>
+<br>데모 사이트 만드는 곳
+<br>https://app.netlify.com/drop
 <br>예제용 홈페이지
-<br>https://practical-davinci-a046ec.netlify.app/
 <ol>
+  <li>기본 html적용</li>https://practical-davinci-a046ec.netlify.app/
+  <li>css적용</li>https://gifted-liskov-6bbece.netlify.app/
+</ol>
   <li><strong>html basic</strong></li>
 
   ```html```
