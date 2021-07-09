@@ -9,7 +9,7 @@ web-programming-study 공부용 레포지토리 입니다.
 <ol>
   <li>기본 html적용</li>https://practical-davinci-a046ec.netlify.app/
   <li>css적용</li>https://gifted-liskov-6bbece.netlify.app/
-  <li></li>
+  <li>javascript적용</li>https://app.netlify.com/sites/naughty-bardeen-303e92/overview
 </ol>
 *정리
 
