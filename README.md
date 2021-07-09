@@ -107,6 +107,29 @@ web-programming-study 공부용 레포지토리 입니다.
         }">
     리팩토링 : 코드에 중복을 제거하고 가독성을 높이는 것
     this : this 키워드 태그로 묶여진 코드 안에 있는걸 가리키는 키워드
-    객체 : 
-    
+    객체 : 여러 속성을 하나의 변수에 저장할 수 있는 데이터 타입
+    *객체 특징 (참조 : https://velog.io/@surim014)
+      1. 객체는 변수이다. 그러나 객체에는 많은 값이 포함될 수 있다.
+      2.(자바스크립트 변수처럼 단일 값을 포함 할 수 있다.)
+      3. 객체는 중괄호 표기를 이용하여 만들 수 있다.
+      4. 객체는 각각의 key/value에 대한 정보를 나열할 수 있다.
+      5. Key는 문자열 또는 기호여야 한다.
+      6. Value는 모든 유형이 될 수 있다.
+      7. 객체는 한 쌍의 key/value 뒤에 쉼표를 이용하여 그 뒤에 오는 key/value와 구분해주어야 한다.
+      8. 객체에서 명명된 값을 Properties라고 한다.
+      9. 변수는 예약어의 이름을 가질 수 없지만 객체는 어떠한 이름이어도 상관없다.
+      10. 객체 변수를 복사하면 참조가 복사되고 객체가 복제되지 않는다.
+    객체에 변수 담기 : ex) var coworkers = { "programmer":"daniel", "designer":"kim" };
+    객체 변수에 접근 : ex) coworkers.programmer; or coworkers["programmer"]; == "daniel"
+    객체 추가하기 : ex) coworkers.bookkeeper = "david"; or coworkers["bookkeeper"] = "david";
+    객체 불러오기(반복문) : ex) for(var key in coworkers) { coworkers[key] }
+    객체에 함수 담기 : ex) coworkers.함수이름 = function() { for(var key in this) { this[key] } //coworkers.함수이름()으로 실행
+    color 를 지정하는 js 파일을 따로 만들고 <script src="파일이름.js"></script> 형식으로 불러와 쓸 수 있음
+    라이브러리 : 자주 사용하는 코드들을 재사용할 수 있는 형태로 가공해서 프로그래밍 효율을 높여주는 코드들
+    JQuery : 엘리먼트를 선택하는 강력한 방법과 선택된 엘리먼트들을 효율적으로 제어할 수 있는 다양한 수단을 제공하는 자바스크립트 라이브러리
+    구글의 자바스크립트 라이브러리 사용
+    head 태그 안에 추가-> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    *사용
+      1. $('a') : 모든 a태그를 선택
+      2. .css(propertyName, value) : .css로 선택한 요소의 css 속성값을 가져오거나 속성을 추가함
   ```
